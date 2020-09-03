@@ -70,6 +70,17 @@ function generatePassword() {
 		alert("Invalid character length");
 		return;
 	}
+
+	//Ask the users a series of yes/no confirms for special characters, uppercase, lowercase, numeric
+
+	var useSpecialCharacters = confirm("Would you like special characters?");
+
+	var useUpperCaseCharacters = confirm("Would you like uppercase characters?");
+
+	var useLowerCaseCharacters = confirm("Would you like lowercase characters?");
+
+	var useNumericCharacters = confirm("Would you like numeric characters?");
+
 	return "password";
 }
 
