@@ -60,6 +60,12 @@ var upperCaseLetters = [
 ];
 var specialChars = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"];
 
+function generatePassword() {
+	var charLength = prompt("How many characters would you like in your password (8-128)?");
+
+	return "password";
+}
+
 //Write password to the #password input
 function writePassword() {
 	var password = generatePassword();
