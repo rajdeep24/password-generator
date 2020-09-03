@@ -81,6 +81,16 @@ function generatePassword() {
 
 	var useNumericCharacters = confirm("Would you like numeric characters?");
 
+	//Validate the user selected at least one character type
+	//If none of these are true - return
+	if (
+		!useSpecialCharacters &&
+		!useUpperCaseCharacters &&
+		!useLowerCaseCharacters &&
+		!useNumericCharacters
+	)
+		return;
+
 	return "password";
 }
 
