@@ -61,8 +61,14 @@ var upperCaseLetters = [
 var specialChars = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"];
 
 function generatePassword() {
+	//Ask the user for the length of password
 	var charLength = prompt("How many characters would you like in your password (8-128)?");
 
+	//If it's greater than 128 or if it's less than 8, fail validation - Create a conditional for this scenario
+	if (charLength > 128 || charLength < 8) {
+		alert("Invalid character length");
+		return;
+	}
 	return "password";
 }
 
