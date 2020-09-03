@@ -63,6 +63,7 @@ var specialChars = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"];
 var charBank = [];
 
 function generatePassword() {
+	var password = " ";
 	//Ask the user for the length of password
 	var charLength = prompt("How many characters would you like in your password (8-128)?");
 
@@ -95,16 +96,25 @@ function generatePassword() {
 
 	// generate a bank of characters based on the users selection of confirm statements
 
-	if (useSpecialCharacters) charBank.concat(specialChars);
-	if (useUpperCaseCharacters) charBank.contact(upperCaseLetters);
-	if (useLowerCaseCharacters) charBank.contact(lowerCaseLetters);
-	if (useNumericCharacters) charBank.contact(numbers);
-	// generate a password of length charLength
+	if (useSpecialCharacters) charBank = charBank.concat(specialChars);
+	if (useUpperCaseCharacters) charBank = charBank.contact(upperCaseLetters);
+	if (useLowerCaseCharacters) charBank = charBank.contact(lowerCaseLetters);
+	if (useNumericCharacters) charBank = charBank.contact(numbers);
+	// generate a password of users selected valid charLength
 	// repeatedly pick a random character until we have the appropriate length
 
-	for (var i = 0; i < charLength; i++) {}
+	for (var i = 0; i < charLength; i++) {
+		//pick a random character from charBank
+		//pics a random number between 0 and the number of characters in charBank
+		var index = Math.floor(Math.random() * charBank.length);
 
-	return "password";
+		var char = char_bank[index];
+
+		//add it to our password
+		password += char;
+	}
+
+	return password;
 }
 
 //Write password to the #password input
