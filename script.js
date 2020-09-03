@@ -108,7 +108,7 @@ function generatePassword() {
 		//pics a random number between 0 and the number of characters in charBank
 		var index = Math.floor(Math.random() * charBank.length);
 
-		var char = char_bank[index];
+		var char = charBank[index];
 
 		//add it to our password
 		password += char;
