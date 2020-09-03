@@ -63,7 +63,7 @@ var specialChars = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"];
 var charBank = [];
 
 function generatePassword() {
-	var password = " ";
+	var password = "";
 	//Ask the user for the length of password
 	var charLength = prompt("How many characters would you like in your password (8-128)?");
 
@@ -91,8 +91,10 @@ function generatePassword() {
 		!useUpperCaseCharacters &&
 		!useLowerCaseCharacters &&
 		!useNumericCharacters
-	)
-		return;
+	) {
+		alert("You must choose one character type.");
+		return "";
+	}
 
 	// generate a bank of characters based on the users selection of confirm statements
 
