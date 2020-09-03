@@ -60,6 +60,8 @@ var upperCaseLetters = [
 ];
 var specialChars = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"];
 
+var charBank = [];
+
 function generatePassword() {
 	//Ask the user for the length of password
 	var charLength = prompt("How many characters would you like in your password (8-128)?");
@@ -90,6 +92,17 @@ function generatePassword() {
 		!useNumericCharacters
 	)
 		return;
+
+	// generate a bank of characters based on the users selection of confirm statements
+
+	if (useSpecialCharacters) charBank.concat(specialChars);
+	if (useUpperCaseCharacters) charBank.contact(upperCaseLetters);
+	if (useLowerCaseCharacters) charBank.contact(lowerCaseLetters);
+	if (useNumericCharacters) charBank.contact(numbers);
+	// generate a password of length charLength
+	// repeatedly pick a random character until we have the appropriate length
+
+	for (var i = 0; i < charLength; i++) {}
 
 	return "password";
 }
