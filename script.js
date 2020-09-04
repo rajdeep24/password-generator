@@ -99,9 +99,9 @@ function generatePassword() {
 	// generate a bank of characters based on the users selection of confirm statements
 
 	if (useSpecialCharacters) charBank = charBank.concat(specialChars);
-	if (useUpperCaseCharacters) charBank = charBank.contact(upperCaseLetters);
-	if (useLowerCaseCharacters) charBank = charBank.contact(lowerCaseLetters);
-	if (useNumericCharacters) charBank = charBank.contact(numbers);
+	if (useUpperCaseCharacters) charBank = charBank.concat(upperCaseLetters);
+	if (useLowerCaseCharacters) charBank = charBank.concat(lowerCaseLetters);
+	if (useNumericCharacters) charBank = charBank.concat(numbers);
 	// generate a password of users selected valid charLength
 	// repeatedly pick a random character until we have the appropriate length
 
