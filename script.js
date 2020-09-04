@@ -71,7 +71,7 @@ function generatePassword() {
 	//If it's greater than 128 or if it's less than 8, fail validation - Create a conditional for this scenario
 	if (charLength > 128 || charLength < 8) {
 		alert("Invalid character length");
-		return;
+		return "";
 	}
 
 	//Ask the users a series of yes/no confirms for special characters, uppercase, lowercase, numeric
