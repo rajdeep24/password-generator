@@ -21,7 +21,7 @@ Github Pages URL: <https://rajdeep24.github.io/password-generator/>
 
 Github Repository: <https://github.com/rajdeep24/password-generator>
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
