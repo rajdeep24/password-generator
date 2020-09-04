@@ -36,15 +36,37 @@ No installation required. Simply view the application by clicking on the followi
 
 ## Usage
 
-Below are screen shots of how to run the application.
+Below are screen shots that follow a series of steps on how to use the application.
 
 ### Screenshots
 
+#### Step-1-navigate-to-application
+
 ![step1](./img/screenshot_1.PNG)
+
+#### Step-2-press-generate-button
+
 ![step2](./img/screenshot_2.PNG)
+
+#### Step-3-choose-num-of-characters
+
 ![step3](./img/sn_3.PNG)
+
+#### Step-4-uppercase-boolean
+
 ![step4](./img/screenshot_4.PNG)
-![step5](./img/screenshot_4.PNG)
+
+#### Step-5-lowercase-boolean
+
+![step5](./img/screenshot_5.PNG)
+
+#### Step-6-numeric-boolean
+
+![step6](./img/screenshot_6.PNG)
+
+#### Step-7-randomly-generated-password
+
+![step7](./img/last_screen_shot.PNG)
 
 ## Credits
 
