@@ -40,7 +40,11 @@ Below are screen shots of how to run the application.
 
 ### Screenshots
 
-![homepage]()
+![step1](./img/screenshot_1.PNG)
+![step2](./img/screenshot_2.PNG)
+![step3](./img/sn_3.PNG)
+![step4](./img/screenshot_4.PNG)
+![step5](./img/screenshot_4.PNG)
 
 ## Credits
 
