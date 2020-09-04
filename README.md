@@ -1,51 +1,57 @@
 # password-generator
 
-# 03 JavaScript: Password Generator
+## Description
 
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+For this project, the goal was to create a password generator that provided a users a randomly generated password based on their criteria selection. When the user clicks the button titled, "Generate Password," the user is prompted to select the number of characters for their randomly generated password with a minimum of 8 and a maximum of 128. Once the user selects their desired character length, the user is then taken through a series of confirmations in choosing the type of character they would like their randomly generated password to contain. This includes, special characters, numbers, uppercase letters, and lowercase letters. The user has to select at least one character type or else the application will not generate a password.
 
-If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
+The purpose of this project is to learn how to leverage various tools we learned in Javascript so far. Within my javascript file, I used a variety of variables with multiple value types that included:
 
-## User Story
+- Strings
+- Numbers
+- Booleans
+- Arrays
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+Additionally, I leveraged prompts, confirmations, alerts, functions, for loops, return statements, and conditional statements such if/else. Furthermore, I leveraged various global methods such as Math.random and Math.floor to randomly select and generate values from an array. I also created empty arrays that were eventually populated with values based on the charter types selected by the users.
 
-## Acceptance Criteria
+This project taught me how to break down large problems into small manageable pieces. I learned how to define my process before even writing a single line of code. I learned the importance of writing effective psuedocode.
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+Below are links to the webpage and the github repository for my password generator application:
 
-The following image demonstrates the application functionality:
+Github Pages URL: <https://rajdeep24.github.io/password-generator/>
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+Github Repository: <https://github.com/rajdeep24/password-generator>
 
-## Review
+## Table of Contents (Optional)
 
-You are required to submit the following for review:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-- The URL of the deployed application.
+## Installation
 
-- The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+No installation required. Simply view the application by clicking on the following link:
+
+<https://rajdeep24.github.io/Raj-Kakar-Portfolio/>
+
+## Usage
+
+Below are screen shots of how to run the application.
+
+### Screenshots
+
+![homepage]()
+
+## Credits
+
+I would like to credit my peers, instructors, and teacher assistants from the GT bootcamp. They were an integral part in providing the essential knowledge and guidance needed to accomplish this task. Additionally, I would like to thank my tutor, Kevin Ferguson. He helped me understand the importance of psecoding and how to logically build your process before writing a single line of code. He helped me reinforce key javascript concepts that would allow me to develop a functioning password generator.
+
+## License
+
+Feel free to leverage the code to learn more about building a responsive mobile first portfolio website by leveraging bootstrap.
 
 ---
 
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## Badges
+
+![badmath](https://img.shields.io/website?down_color=yellow&down_message=Ofline&up_color=Blue&up_message=Online&url=https%3A%2F%2Fimg.shields.io%2Fwebsite%2FPROTOCOL%2FURLREST.svg.)
